@@ -1,1 +1,2 @@
-# byot_hat_draw;lkasdf
+# byot_randomizer
+The official BYOT show drawing app!

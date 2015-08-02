@@ -1,0 +1,37 @@
+textarea {
+  color: black;
+}
+
+body {
+  background-color:#222930;
+  color: #4EB1BA;
+}
+
+.btn {
+  background-color:#E9E9E9;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+ol li {
+  font-size: 1.3em;
+}
+
+a {
+  color: #4EB1BA;
+  text-decoration: none;
+}
+
+.results, .drawing_form, .explanation {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.show {
+  border-color: black;
+  border: solid;
+};
+

@@ -1,0 +1,15 @@
+<div class="drawing_form">
+<h1>BYOT <%=Date.today.strftime("%B")+" "+Time.now.year.to_s%>!</h1>
+  <h2> <label>Writers:</label></h2>
+      <form action="/form" method="post">
+      <textarea rows="8" cols="60" name="show[writers]"/></textarea>
+  <h2><label>Directors:</label></h2>
+      <form action="/form" method="post">
+      <textarea rows="8" cols="60" name="show[directors]"/></textarea>
+  <h2> <label>Actors:</label></h2>
+      <form action="/form" method="post">
+      <textarea rows="15" cols="60" name="show[actors]"/></textarea>
+      <br>
+      <br>
+  <input class="btn btn-default" type="submit" value="Draw from the Hat!">
+</div>

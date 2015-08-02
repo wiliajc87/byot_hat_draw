@@ -1,0 +1,17 @@
+<div class="results">
+  <% x = 1 %>
+  <% @full_cast.each do |value| %>
+    <div class="show">
+    <h1>Show <%=x%>:</h1>
+    <h2>Writer:</h2>
+        <h4><%=value[0]%></h4>
+    <h2>Director:</h2>
+        <h4><%=value[1]%></h4>
+    <h2>Cast:</h2>
+      <% for i in value[2..-1] do %>
+        <h4><%=i%></h4>
+      <% end %>
+      <% x+=1 %>
+    </div>
+  <% end %>
+</div>
